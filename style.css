@@ -35,5 +35,68 @@ nav ul{
 nav ul li{
     padding: 12px;
 }
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 14px;
+    background-image: url('img/music_gif_.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+}
 
-.
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons i{
+     cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    margin-bottom: 10px;
+    cursor: pointer;    
+} 
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 0;
+    border-radius: 30px;
+
+}
+.songItem img{
+    width:40px;
+    border-radius: 50%;
+
+}
+.songlistplay i{
+     cursor: pointer;
+}
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
