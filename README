@@ -1,1 +1,15 @@
 <h1> Spotify Clone </h1>
+<p>This is a simple clone of Spotify without using API . In it I used JS to do functionality such as 
+<ul>
+<li>Play</li>
+<li>Pause</li>
+<li>Forward</li>
+<li>Backward</li>
+</ul>
+In this project , UI was made using CSS3 and HTML which was made to be similar to spotify but with a little bit of creativity.
+<h3>Coding Language Used In this are :</h3>
+<ul>
+<li>HTML</li>
+<li>CSS3</li>
+<li>JS</li>
+</ul>
